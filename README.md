@@ -1,5 +1,5 @@
-# lamp
-Docker Image For Basic Lamp Server
+# LAMP
+Docker Image For Basic LAMP Server
 ### Include ###
 - ubuntu server `16.04`
 - apache2 `2.4.18-2ubuntu3.5`
