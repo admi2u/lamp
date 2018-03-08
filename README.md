@@ -2,9 +2,9 @@
 Docker Image For Basic Lamp Server
 ### Include ###
 - ubuntu server `16.04`
-- apache2 `2.4.18`
-- mariadb-server `10.0.34`
-- mariadb-client
+- apache2 `2.4.18-2ubuntu3.5`
+- mariadb-server `10.0.34-0ubuntu0.16.04.1`
+- mariadb-client `10.0.34-0ubuntu0.16.04.1`
 - php7.0
 - php-xml
 - php-mbstring
@@ -12,6 +12,7 @@ Docker Image For Basic Lamp Server
 - php-mysql
 - php-curl
 ### Additional software ###
+- apt-utils
 - wget 
 - vim
 - curl
