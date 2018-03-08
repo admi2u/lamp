@@ -1,5 +1,5 @@
 # lamp
-Basic Lamp Server
+Docker Image For Basic Lamp Server
 ### Include ###
 - ubuntu server 16.04
 - apache2
