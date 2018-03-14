@@ -11,12 +11,15 @@ Docker Image For Basic LAMP Server
 - php-gd
 - php-mysql
 - php-curl
+- php-zip
 ### Additional software ###
 - apt-utils
 - wget 
 - vim
 - curl
 - composer
+- zip
+- unzip
 ### Configure ###
 - mysql \
   username : root \
