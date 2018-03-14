@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y apt-utils vim curl git wget \
     mariadb-client=10.0.34-0ubuntu0.16.04.1 \
     php-mysql php-mbstring php-curl php-gd php-pgsql php-zip php-dom && \
     ln -s /etc/apache2/mods-available/rewrite.load rewrite.load && \
+    apt-get clean && \ 
     rm -rf /var/lib/apt/lists/*
 
 RUN curl -sS https://getcomposer.org/installer | \
