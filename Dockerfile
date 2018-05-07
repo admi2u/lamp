@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 RUN apt-get update && apt-get install -y apt-utils vim curl git wget \
     php7.0 \ 
     zip unzip \ 
-    apache2=2.4.18-2ubuntu3.5 \ 
+    apache2 \ 
     libapache2-mod-php7.0 \
     mysql-server \ 
     mysql-client \
