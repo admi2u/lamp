@@ -1,12 +1,10 @@
-FROM ubuntu:16.04
+FROM mysql:5.7
 
 RUN apt-get update && apt-get install -y apt-utils vim curl git wget \
     php7.0 \ 
     zip unzip \ 
     apache2 \ 
     libapache2-mod-php7.0 \
-    mysql-server \ 
-    mysql-client \
     php-mysql php-mbstring php-curl php-gd php-zip php-dom && \
     ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/rewrite.load
     
