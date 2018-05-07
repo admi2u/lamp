@@ -5,8 +5,8 @@ RUN apt-get update && apt-get install -y apt-utils vim curl git wget \
     zip unzip \ 
     apache2=2.4.18-2ubuntu3.5 \ 
     libapache2-mod-php7.0 \
-    mariadb-server=10.0.34-0ubuntu0.16.04.1 \ 
-    mariadb-client=10.0.34-0ubuntu0.16.04.1 \
+    mysql-server \ 
+    mysql-client \
     php-mysql php-mbstring php-curl php-gd php-zip php-dom && \
     ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/rewrite.load
     
