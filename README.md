@@ -4,14 +4,15 @@ Docker Image For Basic LAMP Server
 - apache2 `2.4.18`
 - mysql-server `5.7`
 - mysql-client `5.7`
-- libapache2-mod-php7.0
-- php7.0
+- libapache2-mod-php7.1
+- php7.1
 - php-xml
 - php-mbstring
 - php-gd
 - php-mysql
 - php-curl
 - php-zip
+- php-pgsql
 ### Additional software ###
 - apt-utils
 - wget 
@@ -23,4 +24,4 @@ Docker Image For Basic LAMP Server
 ### Configure ###
 - mysql \
   username : root \
-  password : 
+  password : admin
